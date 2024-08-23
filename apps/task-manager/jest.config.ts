@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'nx-task-manager-workspace',
+  displayName: 'task-manager',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/nx-task-manager-workspace',
+  coverageDirectory: '../../coverage/apps/task-manager',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

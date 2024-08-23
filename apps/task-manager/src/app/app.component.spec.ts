@@ -15,13 +15,13 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain(
-      'Welcome nx-task-manager-workspace'
+      'Welcome task-manager'
     );
   });
 
-  it(`should have as title 'nx-task-manager-workspace'`, () => {
+  it(`should have as title 'task-manager'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('nx-task-manager-workspace');
+    expect(app.title).toEqual('task-manager');
   });
 });

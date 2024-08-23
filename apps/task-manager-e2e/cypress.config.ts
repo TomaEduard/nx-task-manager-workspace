@@ -7,10 +7,10 @@ export default defineConfig({
     ...nxE2EPreset(__filename, {
       cypressDir: 'src',
       webServerCommands: {
-        default: 'nx run nx-task-manager-workspace:serve:development',
-        production: 'nx run nx-task-manager-workspace:serve:production',
+        default: 'nx run task-manager:serve:development',
+        production: 'nx run task-manager:serve:production',
       },
-      ciWebServerCommand: 'nx run nx-task-manager-workspace:serve-static',
+      ciWebServerCommand: 'nx run task-manager:serve-static',
     }),
     baseUrl: 'http://localhost:4200',
   },
