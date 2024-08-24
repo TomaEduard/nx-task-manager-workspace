@@ -20,7 +20,8 @@
           {
             "glob": "**/*",
             "input": "apps/task-manager/public"
-          }
+          },
+          "apps/task-manager/src/Dockerfile"
         ],
         "styles": ["apps/task-manager/src/styles.scss"],
         "scripts": []

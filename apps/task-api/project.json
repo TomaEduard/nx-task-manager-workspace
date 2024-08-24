@@ -16,7 +16,7 @@
         "bundle": false,
         "main": "apps/task-api/src/main.ts",
         "tsConfig": "apps/task-api/tsconfig.app.json",
-        "assets": ["apps/task-api/src/assets"],
+        "assets": ["apps/task-api/src/assets", "apps/task-api/src/Dockerfile"],
         "generatePackageJson": true,
         "esbuildOptions": {
           "sourcemap": true,
